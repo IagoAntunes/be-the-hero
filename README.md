@@ -20,7 +20,7 @@
 
 <h1>
     <img alt="interface-mobile" title="interface-mobile" src=".github/assets/gifs/running/mobile.gif" align="left" width="220" height="450"/>
-    <img alt="interface-web" title="interface-web" src=".github/assets/gifs/running/web.gif" align="right" width="600" height="450"/>
+    <img alt="interface-web" title="interface-web" src=".github/assets/gifs/running/web.gif" align="right" width="630" height="450"/>
 </h1>
 
 ---
@@ -31,15 +31,21 @@
 
 - Digite no terminal `cd backend` e então `yarn` e aguarde a instalação das dependências necessárias. Após isso, digite `npx knex migrate:latest` para rodar as migrations do banco de dados.
 
-![install-backend](https://github.com/fnoquiq/be-the-hero/blob/master/.github/assets/gifs/install/install-backend.gif)
+<h1 align="center">
+    <img alt="install-backend" title="install-backend" src=".github/assets/gifs/install/install-backend.gif" />
+</h1>
 
 - Digite no terminal `cd frontend` e então `yarn` e aguarde a instalação das dependências necessárias.
 
-![install-frontend](https://github.com/fnoquiq/be-the-hero/blob/master/.github/assets/gifs/install/install-frontend.gif)
+<h1 align="center">
+    <img alt="install-frontend" title="install-frontend" src=".github/assets/gifs/install/install-frontend.gif" />
+</h1>
 
 - Digite no terminal `cd mobile` e então `yarn` e aguarde a instalação das dependências necessárias.
 
-![install-mobile](https://github.com/fnoquiq/be-the-hero/blob/master/.github/assets/gifs/install/install-mobile.gif)
+<h1 align="center">
+    <img alt="install-mobile" title="install-mobile" src=".github/assets/gifs/install/install-mobile.gif" />
+</h1>
 
 ---
 
@@ -51,7 +57,9 @@
 
 - Para inciar o mobile, basta entrar na pasta usando `cd mobile` e então `yarn start` para levantar o servidor. Neste caso, você pode usar tanto um simulador no computador ou [baixar](https://apps.apple.com/br/app/expo-client/id982107779) o aplicativo expo para rodar a aplicação mobile diretamente no seu celular, para isso basta escanear o QR CODE com a câmera do celular.
 
-![run](https://github.com/fnoquiq/be-the-hero/blob/master/.github/assets/gifs/start/start-all.gif)
+<h1 align="center">
+    <img alt="startApp" title="startApp" src=".github/assets/gifs/start/start-all.gif" />
+</h1>
 
 ---
 
