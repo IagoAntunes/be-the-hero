@@ -8,26 +8,39 @@
 
 <p align="center">
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/fnoquiq/be-the-hero">
-	
-  <a href="https://github.com/fnoquiq">
-    <img alt="Made by Fnoquiq" src="https://img.shields.io/badge/made%20by-fnoquiq-%2304D361">
-  </a>
-
   <a href="https://github.com/fnoquiq/be-the-hero/commits/master">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/fnoquiq/be-the-hero">
   </a>
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
 </p>
 
+## Interface mobile:
+
+<h1 align="center">
+    <img alt="interface-mobile" title="interface-mobile" src=".github/assets/gifs/running/mobile.gif" />
+</h1>
+
+## Interface web:
+
+<h1 align="center">
+    <img alt="interface-web" title="interface-web" src=".github/assets/gifs/running/web.gif" />
+</h1>
+
 ## :hammer: Configurar a aplicação:
 
 - Certifique-se de estar na pasta raiz da aplicação antes de executar **cada um** dos passos a seguir.
 
-- Digite no terminal `cd backend` e então `yarn` e aguarde a instalação das dependências necessárias.
+- Digite no terminal `cd backend` e então `yarn` e aguarde a instalação das dependências necessárias. Após isso, digite `npx knex migrate:latest` para rodar as migrations do banco de dados.
+
+![install-backend](https://github.com/fnoquiq/gobarber-mobile/blob/master/.github/gifs/install/install-backend.gif)
 
 - Digite no terminal `cd frontend` e então `yarn` e aguarde a instalação das dependências necessárias.
 
+![install-frontend](https://github.com/fnoquiq/gobarber-mobile/blob/master/.github/gifs/install/install-frontend.gif)
+
 - Digite no terminal `cd mobile` e então `yarn` e aguarde a instalação das dependências necessárias.
+
+![install-mobile](https://github.com/fnoquiq/gobarber-mobile/blob/master/.github/gifs/install/install-mobile.gif)
 
 ## :horse_racing: Iniciar a aplicação:
 
@@ -36,6 +49,8 @@
 - Para iniciar o frontend web, bastar entrar na pasta usando `cd frontend` e então `yarn start`para levantar o servidor.
 
 - Para inciar o mobile, basta entrar na pasta usando `cd mobile` e então `yarn start` para levantar o servidor. Neste caso, você pode usar tanto um simulador no computador ou [baixar](https://apps.apple.com/br/app/expo-client/id982107779) o aplicativo expo para rodar a aplicação mobile diretamente no seu celular, para isso basta escanear o QR CODE com a câmera do celular.
+
+![run](https://github.com/fnoquiq/gobarber-mobile/blob/master/.github/gifs/start/start-all.gif)
 
 ## :package: Importar configurações do Insomnia:
 
